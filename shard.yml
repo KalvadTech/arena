@@ -1,0 +1,17 @@
+name: arena
+version: 0.1.0
+
+authors:
+  - Loïc Tosser <loic@kalvad.com>
+
+targets:
+  arena:
+    main: src/arena.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+crystal: 1.4.1
+
+license: MIT
