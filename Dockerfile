@@ -9,4 +9,5 @@ RUN shards install --production -v
 # Build a binary
 COPY . /app/
 RUN shards build --static --no-debug --release --production -v
-CMD /app/bin/arena
+EXPOSE 8080
+CMD /app/bin/arena -p 8080
